@@ -12,15 +12,15 @@ url1 = my_dict['url1']
 
 @pytest.fixture()
 def login():
-    obj_data = requests.post(url=url, data={'username':'Alena808', 'password': 'gi89mjb90f'})
+    obj_data = requests.post(url=url, data={'username':'Alena808A', 'password': 'sb23re1a'})
     token = obj_data.json()['token']
     return token
 
 @pytest.fixture()
 def postP():
     obj_data = requests.post(url=url1, headers={"X-Auth-Token": my_dict['token']},data={
-        'username':'KiraZ2',
-        'password': 'gi89mjb90f',
+        'username':'Alena808A',
+        'password': 'sb23re1a',
         'title': 'newTitle',
         'description': 'Anything',
         'content':'we will see'})
