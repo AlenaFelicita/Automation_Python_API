@@ -9,7 +9,7 @@ url = my_dict['url']
 url1 = my_dict['url1']
 website = 'https://test-stand.gb.ru/api/posts'
 username = 'Alena808A'
-password = 'gi89mjb90f'
+password = 'sb23re1a'
 
 
 
