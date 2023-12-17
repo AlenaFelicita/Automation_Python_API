@@ -29,7 +29,7 @@ def test_step2():
     x_selector2 = """//*[@id="login"]/div[2]/label/input"""
     input2 = site.find_element("xpath", x_selector2)
     input2.clear()
-    input2.send_keys("gi89mjb90f")
+    input2.send_keys("sb23re1a")
     btn_selector = "button"
     btn = site.find_element("css", btn_selector)
     btn.click()
